@@ -3,7 +3,7 @@ Distributed Stochastic Gradient Descent for Matrix Factorization on Spark
 
 
 ## Description
-My code includes the automatic evaluation (avg. NZSL) using spark, and it is set as open as default. If you don't want this evaluation (e.g., for speeding up), you can set the variable self_eval as False the the start of the code.
+My code includes the automatic evaluation (avg. NZSL) using spark, and it is set as open as default. If you don't want this evaluation (e.g., for speeding up), you can set the variable self_eval as False at the start of the code.
 
 ## How to run
 Upload the code and data in the cluster (**Note that in EMR cluster, the data need to be stored in HDFS**), and then run the sample command line as follows:
